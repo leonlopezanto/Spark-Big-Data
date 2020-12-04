@@ -48,9 +48,6 @@ object App {
     //Delete null rows from differents columns
     val padron = padron_trim.na.fill((0), Seq("EspanolesHombres", "EspanolesMujeres", "ExtranjerosHombres", "ExtranjerosMujeres"))
 
-
-    //Total de hombres, mujeres, extranjeros hombres, extranjeros mujeres, agrupado por Desc_dist y desc_barrio
-    /*col()*/
     //Total Men, women and foreign men and women group by Desc_Dist and Desc_barrio
     val padronSum =  padron.groupBy(col("DESC_DISTRITO"), col("DESC_BARRIO")).sum("EspanolesHombres","EspanolesMujeres","ExtranjerosHombres","ExtranjerosMujeres")
     padronSum.show(10)
