@@ -56,6 +56,9 @@ object App {
     padronSum.select(padronSum("DESC_DISTRITO"), (padronSum("sum(EspanolesHombres)") + padronSum("sum(EspanolesMujeres)") + padronSum("sum(ExtranjerosHombres)") + padronSum("sum(ExtranjerosMujeres)")).alias("total"))
       .sort(asc("total"))
       .show(30)
-
+    
+    //Saving padron dataset in Parquet format.
+    val parquetPath="./FinalDataset"
+    padron.write.format("parquet").save(parquetPath)
   }
 }
