@@ -1,4 +1,4 @@
-# Spark-Big-Data
+## Dataset "Padron" (Madrid Census)
 
 First steps with Apache Spark using Scala.
 
