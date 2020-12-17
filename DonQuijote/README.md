@@ -6,7 +6,7 @@ It could be downloaded there:
 📦 https://gist.github.com/jsdario/6d6c69398cb0c73111e49f1218960f79 📦
 
 This dataset is avalaible too in project root.
- Dependencies of spark and scala added in pom.xml
+ Dependencies of spark and scala added in pom.xml.
 
 1. We have loaded the DonQuixote dataset into a DataFrame.
 2. We have made trim on the columns of the dataset.
@@ -18,4 +18,4 @@ This dataset is avalaible too in project root.
 5.We have saved the resulting dataset in Parquet format.
 
 In this project we have edited the pom.xml to add some Spark dependencies. 
-You can find the source of our project in the path: DonQuixote/src/main/scala/com/LeonLopez/app.scala
+You can find the source of our project in the path: DonQuixote/src/main/scala/com/LeonLopez/app.scala 
