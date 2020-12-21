@@ -10,6 +10,7 @@ The structure is compatible with a wide range of storage engine types. Through a
 2. Details for connection with MySQL 
 
 3. Getting tables.
+	
 	-Loading Employees table.
 
 	-Loading Deparments table.
@@ -19,6 +20,7 @@ The structure is compatible with a wide range of storage engine types. Through a
 	-Loading Salaries table.
         
 4. Query to know the people who earn more in each department:
+	
 	-Join tables Department and Employees
 
 	-Join table Employes and join above.
