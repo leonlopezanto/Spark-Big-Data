@@ -7,7 +7,7 @@ The structure is compatible with a wide range of storage engine types. Through a
 
 Markup: 1. Creating SparkContext
         2. Otra cosa
-            1.otra otra cosa
+            i. otra otra cosa
 
 1. Creating SparkContext 
 2. Details for connection with MySQL 
