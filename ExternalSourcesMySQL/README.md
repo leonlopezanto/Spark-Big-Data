@@ -13,13 +13,13 @@ The structure is compatible with a wide range of storage engine types. Through a
   -Loading Department Manager table
   -Loading Salaries table
 4. Query to know the people who earn more in each department
--Join tables Department and Employees
--Join table Employes and join above
--Join table Salaries with previous Joins
--Query using window functions (rank and dense_rank)
+  -Join tables Department and Employees
+  -Join table Employes and join above
+  -Join table Salaries with previous Joins
+  -Query using window functions (rank and dense_rank)
 5. Query to know the last 3 salary updates for each employee
--Join table Salaries and Employees
--Consult with window functions (rank and dense_rank)
+  -Join table Salaries and Employees
+  -Consult with window functions (rank and dense_rank)
 
 
 Dependencies of spark, scala and drivers installations to connect the app with MySQL have been added in pom.xml
