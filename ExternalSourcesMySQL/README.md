@@ -36,6 +36,8 @@ The structure is compatible with a wide range of storage engine types. Through a
 	-Consult with window functions (rank and dense_rank).
 
 
-Dependencies of spark, scala and drivers installations to connect the app with MySQL have been added in pom.xml
+Dependencies of spark, scala and drivers installations to connect the app with MySQL have been added in pom.xml.
+
 You can find the relational diagram of the database in the project root.
+
 You can find the source of our project in the path: ExternalSourcesMySQL/src/main/scala/com/LeonLopez/app.scala
